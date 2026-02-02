@@ -1,0 +1,44 @@
+# --- Web ---
+fastapi
+uvicorn[standard]
+
+# --- Database ---
+sqlalchemy>=2.0
+asyncpg
+alembic
+aiosqlite
+greenlet
+
+# --- Validation & Settings ---
+pydantic>=2.0
+pydantic-settings
+
+# --- Auth ---
+python-jose[cryptography]
+passlib[bcrypt]
+
+# --- Background / Utils ---
+python-multipart
+email-validator
+
+# --- Observability ---
+loguru
+
+# --- Testing ---
+pytest
+pytest-asyncio
+httpx
+
+# --- Linting / Formatting ---
+black
+ruff
+pre-commit
+
+# Pagination
+fastapi-pagination
+
+# Rate limiting
+slowapi
+
+# Caching
+redis
